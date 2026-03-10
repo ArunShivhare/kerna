@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-100 text-gray-700 dark:bg-gray-900 dark:text-gray-300 py-12 px-6 transition-colors duration-300">
 
-      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
         {/* Brand Description */}
         <div>
@@ -67,6 +67,38 @@ export default function Footer() {
             Marripalem, Visakhapatnam,
             Andhra Pradesh
           </p>
+        </div>
+
+        {/* Social Placeholders */}
+        <div>
+          <h4 className="text-lg font-semibold text-black dark:text-white mb-4">
+            Follow Us
+          </h4>
+
+          <div className="flex flex-col gap-4">
+
+            <a
+              href="#"
+              className="hover:text-teal-500 transition"
+            >
+              LinkedIn
+            </a>
+
+            <a
+              href="#"
+              className="hover:text-teal-500 transition"
+            >
+              Twitter
+            </a>
+
+            <a
+              href="#"
+              className="hover:text-teal-500 transition"
+            >
+              Instagram
+            </a>
+
+          </div>
         </div>
 
       </div>
