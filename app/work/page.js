@@ -33,11 +33,11 @@ export default function Work() {
   ];
 
   return (
-    <main className="py-20 px-6">
+    <main className="py-20 px-6 bg-white dark:bg-gray-950 transition-colors duration-300">
 
       <div className="max-w-6xl mx-auto">
 
-        <h1 className="text-4xl font-bold text-center mb-6">
+        <h1 className="text-4xl font-bold text-center text-black dark:text-white mb-6">
           Our Work
         </h1>
 
@@ -51,9 +51,9 @@ export default function Work() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="p-6 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950 hover:shadow-lg transition"
+              className="p-6 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-lg transition"
             >
-              <h2 className="text-xl font-semibold mb-2">
+              <h2 className="text-xl font-semibold text-black dark:text-white mb-2">
                 {project.title}
               </h2>
 
@@ -65,11 +65,11 @@ export default function Work() {
                 {project.description}
               </p>
 
-              <p className="text-sm mb-2">
+              <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">
                 <strong>Problem:</strong> {project.problem}
               </p>
 
-              <p className="text-sm">
+              <p className="text-sm text-gray-700 dark:text-gray-300">
                 <strong>Solution:</strong> {project.solution}
               </p>
 

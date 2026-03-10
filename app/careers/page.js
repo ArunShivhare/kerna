@@ -38,11 +38,11 @@ export default function Careers() {
   ];
 
   return (
-    <main className="py-20 px-6">
+    <main className="py-20 px-6 bg-white dark:bg-gray-950 transition-colors duration-300">
 
       <div className="max-w-6xl mx-auto">
 
-        <h1 className="text-4xl font-bold text-center mb-6">
+        <h1 className="text-4xl font-bold text-center text-black dark:text-white mb-6">
           Careers at Kerna
         </h1>
 
@@ -55,9 +55,9 @@ export default function Careers() {
           {roles.map((role, index) => (
             <div
               key={index}
-              className="p-6 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950 hover:shadow-lg transition"
+              className="p-6 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-lg transition"
             >
-              <h2 className="text-xl font-semibold mb-3">
+              <h2 className="text-xl font-semibold text-black dark:text-white mb-3">
                 {role.title}
               </h2>
 
@@ -65,7 +65,7 @@ export default function Careers() {
                 {role.description}
               </p>
 
-              <h3 className="font-semibold mb-2">
+              <h3 className="font-semibold text-black dark:text-white mb-2">
                 Skills Required
               </h3>
 
@@ -75,7 +75,7 @@ export default function Careers() {
                 ))}
               </ul>
 
-              <p className="text-sm mb-4">
+              <p className="text-sm text-gray-700 dark:text-gray-300 mb-4">
                 <strong>Duration:</strong> 12 weeks
               </p>
 
