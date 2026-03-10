@@ -1,11 +1,16 @@
 import Image from "next/image";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Services from "./components/Services";
+import HowWeWork from "./components/HowWeWork";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold">
-        Kerna Website Starting...
-      </h1>
-    </main>
+    <>
+      <Hero />
+      <About />
+      <Services />
+      <HowWeWork />
+    </>
   );
 }
