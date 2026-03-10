@@ -21,7 +21,7 @@ export default function WorkPreview() {
 
       <div className="max-w-6xl mx-auto">
 
-        <h2 className="text-3xl font-bold text-center mb-12">
+        <h2 className="text-3xl dark:text-amber-50 font-bold text-center mb-12">
           Sample Work
         </h2>
 
@@ -33,7 +33,7 @@ export default function WorkPreview() {
               key={index}
               className="block p-6 rounded-xl border border-gray-200 dark:border-gray-700 hover:shadow-lg transition"
             >
-              <h3 className="text-xl font-semibold mb-3">
+              <h3 className="text-xl dark:text-amber-50 font-semibold mb-3">
                 {project.title}
               </h3>
 

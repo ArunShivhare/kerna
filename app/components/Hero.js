@@ -6,7 +6,7 @@ export default function Hero() {
 
       <div className="max-w-3xl mx-auto">
 
-        <h1 className="text-4xl md:text-5xl font-bold mb-6">
+        <h1 className="text-4xl dark:text-amber-50 md:text-5xl font-bold mb-6">
           Where Strategy Meets Spark.
         </h1>
 

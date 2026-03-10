@@ -4,7 +4,7 @@ export default function ContactSection() {
 
       <div className="max-w-6xl mx-auto">
 
-        <h2 className="text-3xl font-bold text-center mb-12">
+        <h2 className="text-3xl dark:text-amber-50 font-bold text-center mb-12">
           Contact Us
         </h2>
 
@@ -13,7 +13,7 @@ export default function ContactSection() {
           {/* Contact Info */}
           <div>
 
-            <h3 className="text-xl font-semibold mb-4">
+            <h3 className="text-xl dark:text-amber-50 font-semibold mb-4">
               Get in Touch
             </h3>
 

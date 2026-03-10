@@ -23,7 +23,7 @@ export default function HowWeWork() {
 
       <div className="max-w-6xl mx-auto">
 
-        <h2 className="text-3xl font-bold text-center mb-12">
+        <h2 className="text-3xl dark:text-amber-50 font-bold text-center mb-12">
           How We Work
         </h2>
 
@@ -38,7 +38,7 @@ export default function HowWeWork() {
                 {index + 1}
               </div>
 
-              <h3 className="font-semibold text-lg mb-2">
+              <h3 className="font-semibold dark:text-amber-50 text-lg mb-2">
                 {step.title}
               </h3>
 

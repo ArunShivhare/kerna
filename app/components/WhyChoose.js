@@ -27,7 +27,7 @@ export default function WhyChoose() {
 
       <div className="max-w-6xl mx-auto">
 
-        <h2 className="text-3xl font-bold text-center mb-12">
+        <h2 className="text-3xl dark:text-amber-50 font-bold text-center mb-12">
           Why Choose Kerna
         </h2>
 
@@ -38,7 +38,7 @@ export default function WhyChoose() {
               key={index}
               className="p-6 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950 hover:shadow-lg transition"
             >
-              <h3 className="text-xl font-semibold mb-3">
+              <h3 className="text-xl dark:text-amber-50 font-semibold mb-3">
                 {reason.title}
               </h3>
 

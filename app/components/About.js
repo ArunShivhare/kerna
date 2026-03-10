@@ -4,7 +4,7 @@ export default function About() {
 
       <div className="max-w-5xl mx-auto text-center">
 
-        <h2 className="text-3xl font-bold mb-8">
+        <h2 className="text-3xl dark:text-amber-50 font-bold mb-8">
           About Kerna
         </h2>
 
@@ -18,7 +18,7 @@ export default function About() {
         <div className="grid md:grid-cols-3 gap-8 text-left">
 
           <div>
-            <h3 className="font-semibold text-lg mb-2">Mission</h3>
+            <h3 className="font-semibold dark:text-amber-50 text-lg mb-2">Mission</h3>
             <p className="text-gray-600 dark:text-gray-300">
               To make smart, affordable marketing accessible to small businesses
               and help them punch above their weight.
@@ -26,14 +26,14 @@ export default function About() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-lg mb-2">Who We Work With</h3>
+            <h3 className="font-semibold dark:text-amber-50 text-lg mb-2">Who We Work With</h3>
             <p className="text-gray-600 dark:text-gray-300">
               Local businesses, startups, and independent brands.
             </p>
           </div>
 
           <div>
-            <h3 className="font-semibold text-lg mb-2">What We Solve</h3>
+            <h3 className="font-semibold dark:text-amber-50 text-lg mb-2">What We Solve</h3>
             <p className="text-gray-600 dark:text-gray-300">
               Confusing marketing, weak online presence, and scattered branding.
             </p>
