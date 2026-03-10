@@ -1,17 +1,24 @@
 "use client";
 
 import Link from "next/link";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   return (
-    <nav className="w-full border-b border-gray-200 dark:border-gray-700">
+    <nav className="w-full border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
 
-        <Link href="/" className="text-xl font-bold">
+        {/* Logo */}
+        <Link
+          href="/"
+          className="text-xl font-bold text-black dark:text-white"
+        >
           Kerna
         </Link>
 
-        <div className="flex gap-6 text-sm font-medium">
+        {/* Navigation */}
+        <div className="flex items-center gap-6 text-sm font-medium text-gray-700 dark:text-gray-200">
+
           <Link href="/" className="hover:text-teal-500">
             Home
           </Link>
@@ -27,6 +34,9 @@ export default function Navbar() {
           <Link href="/contact" className="hover:text-teal-500">
             Contact
           </Link>
+
+          <ThemeToggle />
+
         </div>
 
       </div>

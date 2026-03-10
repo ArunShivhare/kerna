@@ -26,7 +26,7 @@ export default function Hero() {
 
           <Link
             href="/careers"
-            className="px-6 py-3 border text-white border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+            className="px-6 py-3 border dark:text-white border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition"
           >
             Join as an Intern
           </Link>
