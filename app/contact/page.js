@@ -42,6 +42,8 @@ export default function Contact() {
         <p className="text-gray-600 dark:text-gray-300">
           Thank you for applying. We will review your application soon.
         </p>
+
+        <ContactSection />
       </main>
     );
   }
